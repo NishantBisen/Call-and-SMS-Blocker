@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/image"
+    android:soundEffectsEnabled="true"
+    >
+    
+	<TextView
+		android:id="@+id/startscreen_tTitle" 
+   		android:layout_width="fill_parent" 
+   		android:layout_height="wrap_content" 
+   		android:textSize="35sp"   		
+   		android:text="@string/hello"
+   		android:textStyle="bold"
+   		
+    />
+    
+    <TextView
+		android:id="@+id/startscreen_tMessage" 
+   		android:layout_width="fill_parent" 
+   		android:layout_height="wrap_content" 
+   		android:text="@string/Message"
+   		android:layout_below="@id/startscreen_tTitle" 
+   		android:textSize="20sp"
+   		
+    />
+    
+    
+    
+    <Button
+    	android:id="@+id/startscreen_bStartApplication"
+    	android:layout_height="wrap_content"
+    	android:layout_width="fill_parent"
+    	android:text="@string/StartApplication"
+    	android:layout_above="@+id/startscreen_bAbout"
+    />
+    
+    <Button
+    	android:id="@+id/startscreen_bAbout"
+    	android:layout_height="wrap_content"
+    	android:layout_width="fill_parent"
+    	android:text="@string/AboutApplication"
+    	android:layout_above="@+id/startscreen_bAboutUs"
+    />
+    
+    <Button
+    	android:id="@+id/startscreen_bAboutUs"
+    	android:layout_height="wrap_content"
+    	android:layout_width="fill_parent"
+    	android:text="@string/AboutUs"
+    	android:layout_alignParentBottom="true"
+    />
+</RelativeLayout>

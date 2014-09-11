@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">     Call And Sms    				Blockers</string>
+    <string name="app_name">CallAndSmsBlocker</string>
+    <string name="Message">Please ensure that you have turned off notifications for the SMS reception.This application will take care of this for you.Please tap on About Application for more help or select configure block option to proceed forward and start blocking.</string>
+    
+    <!-- StartScreenActivity -->
+    <string name="StartApplication">Configure Block Settings</string>
+    <string name="AboutApplication">Application Information</string>
+    <string name="AboutUs">AboutUs</string>
+    <string name="ConfiguringEmail">Configuring Email Option</string>
+	
+	<!-- ContactListHomeActivity -->
+	<string name="AddNumber">Add New Number</string>
+	<string name="CallCommunityToggle">Toggle Call Community Blacklist Fearture</string>
+	<string name="SMSCommunityToggle">Toggle SMS Community Blacklist Feature</string>
+	<string name="Busymode">Busy Mode</string>
+	<string name="Cancel">Cancel</string>
+	
+	
+	<!-- AddContactOptionsScreen -->
+	
+	<string name="FromContacts">From Contacts</string>
+	<string name="Manually">Manually</string>
+	<string name="Information">This application provides facility to add numbers to blocked list either manually or from your phone contacts.Please select from where you want to add the contacts. </string>
+	
+	<!-- AddFromContactScreen -->
+	
+	<string name="FromContact">These are the details from Contacts.Please select the number which you want to block.</string>
+	
+	 <!-- AddManuallyScreen -->
+	 
+	 <string name="Name">NAME:</string>
+	 <string name="Number">NUMBER:</string>
+	 <string name="Add">Add</string>
+	 <string name="Text">Please select block option from Home Screen.</string>
+	 
+	 <!-- EditBlockOptionsScreen -->
+	 
+	 <string name="callblock">Call Block Options</string>
+	 <string name="smsblock">SMS Block Options</string>
+	 <string name="delete">Delete this contact</string>
+	 <string name="Info">Please select if you want to block Calls or SMS from this number.</string>
+	 
+	 
+	 <!-- CallBlockOptionsScreen -->
+	 
+	 <string name="Busy">BUSY</string>
+	 <string name="Blacklist">BLACKLIST</string>
+	 <string name="Signallow">SIGNALLOW</string>
+	 <string name="Batterylow">BATTERYLOW</string>
+	 <string name="CommunityBlicklist">Community BlackList</string>
+	 <string name="Save">Save</string>
+	 <string name="MoreInfo">More Information</string>
+	 
+	  <!-- SmsBlockOptionsScreen -->
+	  <string name="Notify">NOTIFY BUT DONOT SAVE</string>
+	  <string name="DoNotNotify">SAVE BUT DONOT NOTIFY</string>
+	  <string name="Clear">Clear</string>
+	  
+	  <!-- Call community blacklist screen -->
+	  <string name="Description"></string>
+	  <string name="Toggle">Toggle Community Blacklist Feature</string>
+	  <string name="Refresh">Refresh List from Server</string>
+	  <string name="Request">Request Current Contact to be BlackListed</string>
+	  
+	  <!-- CallMoreInfo -->
+	  <string name="Back">Back</string>
+	  <string name="callBlackList">CALL BLACKLIST :-This will completely blackout any call from this number.No call or notification will be generated.</string>
+	  <string name="callBusy">CALL BUSY :-If this option is checked,such calls will only be blocked if the phone is in BUSY mode.Such event will generate a notification.</string>
+	  <string name="callSignalLow">CALL SignalLow :-If this option is checked,calls from this number will be blocked only if the GSM signal is very low.</string>
+	  <string name="callBatteryLow">CALL Battery Low :-If this optin is checked, calls from this number will be blocked only if battery is very low</string>
+	  
+	   <!-- SMSMoreInfo -->
+	   <string name="BlackList">SMS BLACKLIST :- This will completely blockout the SMS from a perticular number.The SMS neither come in the inbox nor any notification will be generated from this numbers SMS.</string>
+	   <string name="NotifyOnly">SMS Notify But Donot Save :-This will only generate a notification whenever a sMS is received from a particular number.WARNING!! The SMS will not be saved in the inbox if this is checked.</string>
+	   <string name="SaveOnly">SMS Save But Donot Notify :-This will directly save the SMS to the inbox wthout generating a notification for the SMS.</string>
+	   
+	   <string name="Dash">****************************************</string>
+	  <!-- AboutUsScreen -->
+	  
+	  <string name="Sarthak">SARTHAK TAYADE 57.</string>
+	   <string name="Nishant">NISHANT BISEN 35.</string>
+	   <!-- EmailFeatureScreen -->
+	 
+	 <string name="EmailToggle">Toggle Feature</string>
+	 <string name="EmailInformation">Information</string>
+	 <string name="EmailId">EMAIL ID:</string>	 
+</resources>
+

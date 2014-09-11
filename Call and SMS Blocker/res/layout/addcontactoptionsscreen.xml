@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/image"
+  android:soundEffectsEnabled="true">
+  <TextView
+  	android:id="@+id/addcontactoptionscreens_tTitle"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:text="@string/Information"
+  	android:textSize="20sp"
+  />
+  <Button
+  	android:id="@+id/addcontactoptionscreens_bFromContacts"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:text="@string/FromContacts"
+  	android:layout_above="@+id/addcontactoptionscreens_bManually"
+  />
+  
+  
+  <Button
+  	android:id="@+id/addcontactoptionscreens_bManually"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:text="@string/Manually"
+  	android:layout_above="@+id/addcontactoptionscreens_bCancel"
+  />
+  
+  <Button
+  	android:id="@+id/addcontactoptionscreens_bCancel"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:text="@string/Cancel"
+  	android:layout_alignParentBottom="true"
+  />
+</RelativeLayout>

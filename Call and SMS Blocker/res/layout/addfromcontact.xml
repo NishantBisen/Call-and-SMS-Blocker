@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/image"
+  android:soundEffectsEnabled="true">
+  <TextView
+  	android:id="@+id/addfromcontact_tTitle"
+  	android:layout_height="wrap_content"
+  	android:layout_width="fill_parent"
+  	android:text="@string/FromContact"
+  	android:textSize="20sp"
+  	
+  />
+  
+  <TextView
+  	android:id="@+id/addfromcontact_tDash"
+  	android:layout_height="wrap_content"
+  	android:layout_width="fill_parent"
+  	android:text="@string/Dash"
+  	android:layout_below="@+id/addfromcontact_tTitle"
+  />
+  <ListView
+  	android:id="@id/android:list"
+  	android:layout_height="wrap_content"
+  	android:layout_width="fill_parent"
+  	android:layout_below="@+id/addfromcontact_tDash"
+  	android:layout_above="@+id/addfromcontact_bCancel"
+  />
+  <Button
+  	android:id="@+id/addfromcontact_bCancel"
+  	android:layout_height="wrap_content"
+  	android:layout_width="fill_parent"
+  	android:text="@string/Cancel"
+  	android:layout_alignParentBottom="true"
+  />
+</RelativeLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/image"
+  android:soundEffectsEnabled="true">
+  
+  <TextView
+  	android:id="@+id/callmoreinfo_BlackList"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:text="@string/callBlackList"
+  	android:textSize="17sp"
+  />
+  
+   <TextView
+  	android:id="@+id/callmoreinfo_Dash"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:text="@string/Dash"
+  	android:layout_below="@+id/callmoreinfo_BlackList"
+  />
+  
+  <TextView
+  	android:id="@+id/callmoreinfo_Busy"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:text="@string/callBusy"
+  	android:layout_below="@+id/callmoreinfo_Dash"
+  	android:textSize="17sp"
+  />
+  
+   <TextView
+  	android:id="@+id/callmoreinfo_Ddash"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:text="@string/Dash"
+  	android:layout_below="@+id/callmoreinfo_Busy"
+  />
+  
+  
+  
+  <TextView
+  	android:id="@+id/callmoreinfo_SignalLow"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:text="@string/callSignalLow"
+  	android:layout_below="@+id/callmoreinfo_Ddash"
+  	android:textSize="17sp"
+  />
+  
+  <TextView
+  	android:id="@+id/callmoreinfo_Dddash"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:text="@string/Dash"
+  	android:layout_below="@+id/callmoreinfo_SignalLow"
+  />
+  
+  <TextView
+  	android:id="@+id/callmoreinfo_BatteryLow"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:text="@string/callBatteryLow"
+  	android:layout_below="@+id/callmoreinfo_Dddash"
+  	android:textSize="17sp"
+  />
+  
+  <Button
+  	android:id="@+id/callmoreinfo_bBack"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:layout_alignParentBottom="true"
+  	android:text="@string/Back"
+  />
+</RelativeLayout>

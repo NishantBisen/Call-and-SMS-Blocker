@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/image"
+  android:soundEffectsEnabled="true">
+  
+  <TextView
+  	android:id="@+id/callblock_tName"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:layout_alignParentTop="true"
+  	android:text="Name"
+  	android:textSize="20sp"
+  
+  />
+  
+  <TextView
+  	android:id="@+id/callblock_tNumber"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+   	android:layout_below="@+id/callblock_tName"
+   	android:text="Number"
+   	android:textSize="20sp"
+  />
+  
+  <Button
+  		android:id="@+id/callblock_bMoreinfo"
+  		android:text="@string/MoreInfo"
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:layout_below="@+id/callblock_tNumber"
+  	
+  	/>
+  
+  <CheckBox
+  	android:id="@+id/callblock_cBusy"
+  	android:text="@string/Busy"
+  	android:layout_width="150sp"
+  	android:layout_height="wrap_content"
+  	android:layout_below="@+id/callblock_bMoreinfo"
+  	/>
+  	
+  	 <CheckBox
+  	android:id="@+id/callblock_cBlacklist"
+  	android:text="@string/Blacklist"
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:layout_below="@+id/callblock_bMoreinfo"
+  	android:layout_toRightOf="@+id/callblock_cBusy"
+  	/>
+  	
+  	 <CheckBox
+  	android:id="@+id/callblock_cSignallow"
+  	android:text="@string/Signallow"
+  	android:layout_width="150sp"
+  	android:layout_height="wrap_content"
+  	android:layout_below="@+id/callblock_cBusy"
+  
+  	/>
+  	
+  	 <CheckBox
+  	android:id="@+id/callblock_cBatterylow"
+  	android:text="@string/Batterylow"
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:layout_below="@+id/callblock_cBusy"
+  	android:layout_toRightOf="@+id/callblock_cSignallow"
+  	
+  	/>
+  	
+  	<Button
+  		android:id="@+id/callblock_bCommunityBlackList"
+  		android:text="@string/CommunityBlicklist"
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:layout_above="@+id/callblock_bSave"
+  	/>
+  	
+  	<Button
+  		android:id="@+id/callblock_bSave"
+  		android:text="@string/Save"
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:layout_above="@+id/callblock_bCancel"
+  	/>
+  	
+  		<Button
+  		android:id="@+id/callblock_bCancel"
+  		android:text="@string/Cancel"
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:layout_alignParentBottom="true"
+  		
+  	/>
+  	
+  	
+</RelativeLayout>

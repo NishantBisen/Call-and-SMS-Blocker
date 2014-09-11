@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/image"
+  android:soundEffectsEnabled="true">
+  
+  <TextView
+  	android:id="@+id/callcommunityblacklist_tDescription"
+  	android:layout_height="wrap_content"
+  	android:layout_width="fill_parent"
+  	android:text="@string/Description"
+  	android:textSize="20sp"
+  />
+  <TextView
+  	android:id="@+id/callcommunityblacklist_tCurrentStatus"
+  	android:layout_height="wrap_content"
+  	android:layout_width="fill_parent"
+  	android:layout_above="@+id/callcommunityblacklist_bRefresh"
+  	android:textSize="20sp"
+  />
+  
+   <Button
+  	android:id="@+id/callcommunityblacklist_bRefresh"
+  	android:layout_height="wrap_content"
+  	android:layout_width="fill_parent"
+  	android:layout_above="@+id/callcommunityblacklist_bRequest"
+  	android:text="@string/Refresh"
+  />
+  
+   <Button
+  	android:id="@+id/callcommunityblacklist_bRequest"
+  	android:layout_height="wrap_content"
+  	android:layout_width="fill_parent"
+  	android:layout_above="@+id/callcommunityblacklist_bCancel"
+  	android:text="@string/Request"
+  />
+  
+     <Button
+  	android:id="@+id/callcommunityblacklist_bCancel"
+  	android:layout_height="wrap_content"
+  	android:layout_width="fill_parent"
+  	android:layout_alignParentBottom="true"
+  	android:text="@string/Cancel"
+  />
+</RelativeLayout>

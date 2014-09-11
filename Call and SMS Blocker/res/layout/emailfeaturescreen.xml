@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/image"
+  android:soundEffectsEnabled="true">
+  
+  <TextView
+  	android:id="@+id/emailfeaturescreen_tTitle"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	
+  />
+  
+  <TextView
+  	android:id="@+id/emailfeaturescreen_tEmailId"
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:text="@string/EmailId"
+  	android:layout_below="@+id/emailfeaturescreen_tTitle"
+  	android:textSize="20sp"
+  />
+  
+  <EditText
+  	android:id="@+id/emailfeaturescreen_eEmailId"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:layout_below="@+id/emailfeaturescreen_tTitle"
+  	android:layout_toRightOf="@+id/emailfeaturescreen_tEmailId"
+  />
+  
+  <TextView
+  	android:id="@+id/emailfeaturescreen_tInformation"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:text="@string/EmailInformation"
+  	android:layout_below="@+id/emailfeaturescreen_eEmailId"
+  	android:textSize="20sp"
+  	
+  />
+  
+  <TextView
+  	android:id="@+id/emailfeaturescreen_tToggle"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:layout_above="@+id/emailfeaturescreen_bSave"
+  />
+  <Button
+  	android:id="@+id/emailfeaturescreen_bSave"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:text="@string/Save"
+  	android:layout_above="@+id/emailfeaturescreen_bToggle"
+  />
+  
+  <Button
+  	android:id="@+id/emailfeaturescreen_bToggle"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:text="@string/EmailToggle"
+  	android:layout_above="@+id/emailfeaturescreen_bCancel"
+  />
+  
+  <Button
+  android:id="@+id/emailfeaturescreen_bCancel"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:text="@string/Cancel"
+  	android:layout_alignParentBottom="true"
+  />
+</RelativeLayout>

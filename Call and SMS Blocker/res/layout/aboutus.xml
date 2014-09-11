@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+   android:background="@drawable/image"
+   android:soundEffectsEnabled="true">
+  
+  <TextView
+   android:id="@+id/aboutus_sarthak"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:text="@string/Sarthak"
+  	android:textSize="20sp"
+  />
+  
+   
+  <TextView
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:text="@string/Nishant"
+  	android:textSize="20sp"
+  	android:layout_below="@+id/aboutus_sarthak"
+  />
+  
+  <Button
+  	android:id="@+id/aboutus_bBack"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:layout_alignParentBottom="true"
+  	android:text="@string/Back"
+  />
+</RelativeLayout>

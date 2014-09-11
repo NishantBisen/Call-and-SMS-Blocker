@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/image"
+  android:soundEffectsEnabled="true">
+  
+  
+  <TextView
+  	android:id="@+id/smsblock_tName"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:layout_alignParentTop="true"
+  	android:text="Name"
+  	android:textSize="20sp"
+  
+  />
+  
+  <TextView
+  	android:id="@+id/smsblock_tNumber"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+   	android:layout_below="@+id/smsblock_tName"
+   	android:text="Number"
+   	android:textSize="20sp"
+  />
+  
+  <Button
+  		android:id="@+id/smsblock_bMoreinfo"
+  		android:text="@string/MoreInfo"
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:layout_below="@+id/smsblock_tNumber"
+  	
+  	/>
+  
+  
+  <CheckBox
+  	android:id="@+id/smsblock_cBlacklist"
+  	android:text="@string/Blacklist"
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:layout_below="@+id/smsblock_bMoreinfo"
+  	/>
+  	<RadioGroup
+  		android:id="@+id/smsblock_rNotification"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:layout_below="@+id/smsblock_cBlacklist">
+  		
+	  	 <RadioButton
+	  	android:id="@+id/smsblock_cNotify"
+	  	android:text="@string/Notify"
+	  	/>
+	  	
+	  	 <RadioButton
+	  	android:id="@+id/smsblock_cDonotNotify"
+	  	android:text="@string/DoNotNotify"
+	  	/>
+  	</RadioGroup>
+  	
+  	
+  	<Button
+  		android:id="@+id/smsblock_bClear"
+  		android:text="@string/Clear"
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:layout_above="@+id/smsblock_bCommunityBlackList"
+  	/>
+  	
+  	
+  	<Button
+  		android:id="@+id/smsblock_bCommunityBlackList"
+  		android:text="@string/CommunityBlicklist"
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:layout_above="@+id/smsblock_bSave"
+  	/>
+  	
+  	<Button
+  		android:id="@+id/smsblock_bSave"
+  		android:text="@string/Save"
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:layout_above="@+id/smsblock_bCancel"
+  	/>
+  	
+  		<Button
+  		android:id="@+id/smsblock_bCancel"
+  		android:text="@string/Cancel"
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:layout_alignParentBottom="true"
+  		
+  	/>
+  	
+</RelativeLayout>

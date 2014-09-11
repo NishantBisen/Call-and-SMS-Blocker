@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/image"
+  android:soundEffectsEnabled="true">
+  <TextView
+  	android:id="@+id/smsmoreinfo_tBlacklist"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:text="@string/BlackList"
+  	android:textSize="17sp"
+  />
+  
+   <TextView
+  	android:id="@+id/smsmoreinfo_tDash"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:text="@string/Dash"
+  	android:layout_below="@+id/smsmoreinfo_tBlacklist"
+  />
+  
+  <TextView
+  	android:id="@+id/smsmoreinfo_tNotify"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:text="@string/NotifyOnly"
+  	android:layout_below="@+id/smsmoreinfo_tDash"
+  	android:textSize="17sp"
+  	
+  />
+   <TextView
+  	android:id="@+id/smsmoreinfo_tDDash"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:text="@string/Dash"
+  	android:layout_below="@+id/smsmoreinfo_tNotify"
+  />
+  
+  <TextView
+  	android:id="@+id/smsmoreinfo_tSave"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:text="@string/SaveOnly"
+  	android:layout_below="@+id/smsmoreinfo_tDDash"
+  	android:textSize="17sp"
+  />
+  
+  <Button
+  	android:id="@+id/smsmoreinfo_bBack"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:layout_alignParentBottom="true"
+  	android:text="@string/Back"
+  />
+  
+</RelativeLayout>

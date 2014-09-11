@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/image"
+  android:soundEffectsEnabled="true">
+  
+ <TextView
+ 	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+ 	
+ />
+ 
+ <Button
+ 	android:id="@+id/smscommunityblacklistscreen_bRefresh"
+ 	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:text="@string/Refresh"
+  	android:layout_above="@+id/smscommunityblacklistscreen_bRequest"
+  
+ />
+ 
+ <Button
+ 	android:id="@+id/smscommunityblacklistscreen_bRequest"
+ 	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:text="@string/Request"
+  	android:layout_above="@+id/smscommunityblacklistscreen_bCancel"
+ />
+ 
+ <Button
+ 	android:id="@+id/smscommunityblacklistscreen_bCancel"
+ 	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:text="@string/Cancel"
+  	android:layout_alignParentBottom="true"
+ />
+</RelativeLayout>

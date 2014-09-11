@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/image"
+  android:soundEffectsEnabled="true">
+ 
+  <ListView
+  	android:id="@id/android:list"
+  	android:layout_height="wrap_content"
+  	android:layout_width="wrap_content"
+  	android:layout_alignParentTop="true"
+  	android:layout_above="@+id/contactlisthome_bAddNumber"
+  />
+  <Button
+  	android:id="@+id/contactlisthome_bAddNumber"
+  	android:layout_height="wrap_content"
+  	android:layout_width="fill_parent"
+  	android:text="@string/AddNumber"
+  	android:layout_above="@+id/contactlisthome_bCallCommFeatureToggle"
+  />
+  <Button
+  	android:id="@+id/contactlisthome_bCallCommFeatureToggle"
+  	android:layout_height="wrap_content"
+  	android:layout_width="160sp"
+  	android:text="@string/CallCommunityToggle"
+  	android:layout_above="@+id/contactlisthome_bBusyStateToggle"
+  />
+  <Button
+  	android:id="@+id/contactlisthome_bSMSCommFeatureToggle"
+  	android:layout_height="wrap_content"
+  	android:layout_width="160sp"
+  	android:text="@string/SMSCommunityToggle"
+  	android:layout_above="@+id/contactlisthome_bBusyStateToggle"
+  	android:layout_toRightOf="@+id/contactlisthome_bCallCommFeatureToggle"
+  />
+  <Button
+  	android:id="@+id/contactlisthome_bBusyStateToggle"
+  	android:layout_height="wrap_content"
+  	android:layout_width="160sp"
+  	android:text="@string/Busymode"
+  	
+  	android:layout_alignParentBottom="true"
+  />
+  <Button
+  	android:id="@+id/contactlisthome_bCancel"
+  	android:layout_height="wrap_content"
+  	android:layout_width="160sp"
+  	android:text="@string/Cancel"
+  	android:layout_alignParentBottom="true"
+  	android:layout_toRightOf="@+id/contactlisthome_bBusyStateToggle"
+  />
+</RelativeLayout>

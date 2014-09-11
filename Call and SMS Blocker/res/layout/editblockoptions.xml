@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/image"
+  android:soundEffectsEnabled="true">
+  <TextView
+  	android:id="@+id/editblockoptions_tInfo"
+  	android:layout_height="wrap_content"
+  	android:layout_width="fill_parent"
+  	android:text="@string/Info"
+  	android:layout_alignParentTop="true"
+  	android:textSize="20sp"
+  />
+  
+  <TextView
+  	android:id="@+id/editblockoptions_tDash"
+  	android:layout_height="wrap_content"
+  	android:layout_width="fill_parent"
+  	android:text="@string/Dash"
+  	android:layout_below="@+id/editblockoptions_tInfo"
+  	/>
+  
+  
+  
+  <TextView
+  	android:id="@+id/editblockoptions_tName"
+  	android:layout_height="wrap_content"
+  	android:layout_width="fill_parent"
+  	android:layout_below="@+id/editblockoptions_tDash"
+  	android:textSize="20sp"
+  />
+  <TextView
+  	android:id="@+id/editblockoptions_tNumber"
+  	android:layout_height="wrap_content"
+  	android:layout_width="fill_parent"
+  	android:layout_below="@id/editblockoptions_tName"
+  	android:textSize="20sp"
+  />
+  <Button
+  	android:id="@+id/editblockoptions_bcallblockopt"
+  	android:layout_height="wrap_content"
+  	android:layout_width="fill_parent"
+  	android:layout_above="@+id/editblockoptions_bsmsblockopt"
+  	android:text="@string/callblock"
+  />
+  <Button
+  	android:id="@+id/editblockoptions_bsmsblockopt"
+  	android:layout_height="wrap_content"
+  	android:layout_width="fill_parent"
+  	android:layout_above="@+id/editblockoptions_bDelete"
+  	android:text="@string/smsblock"
+  />
+  <Button
+  	android:id="@+id/editblockoptions_bDelete"
+  	android:layout_height="wrap_content"
+  	android:layout_width="fill_parent"
+  	android:layout_above="@+id/editblockoptions_bCancel"
+  	android:text="@string/delete"
+  />
+  <Button
+  	android:id="@+id/editblockoptions_bCancel"
+  	android:layout_height="wrap_content"
+  	android:layout_width="fill_parent"
+  	android:layout_alignParentBottom="true"
+  	android:text="@string/Cancel"
+  />
+</RelativeLayout>

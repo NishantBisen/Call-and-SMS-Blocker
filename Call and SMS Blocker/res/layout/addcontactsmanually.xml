@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/image"
+  android:soundEffectsEnabled="true">
+  
+  <TextView
+  	android:id="@+id/addcontactsmanually_tTitle"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  
+  />
+  
+  <TextView
+  	android:id="@+id/addcontactsmanually_tName"
+  	android:layout_width="70sp"
+  	android:layout_height="wrap_content"
+  	android:layout_below="@+id/addcontactsmanually_tTitle"
+  	android:text="@string/Name"
+  />
+  
+  <EditText
+  	android:id="@+id/addcontactsmanually_eName"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:layout_below="@+id/addcontactsmanually_tTitle"
+  	android:layout_toRightOf="@id/addcontactsmanually_tName"
+  	
+  />
+  
+   <TextView
+  	android:id="@+id/addcontactsmanually_tNumber"
+  	android:layout_width="70sp"
+  	android:layout_height="wrap_content"
+  	android:layout_below="@+id/addcontactsmanually_eName"
+  	android:text="@string/Number"
+  />
+  
+  
+   <EditText
+  	android:id="@+id/addcontactsmanually_eNumber"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:layout_below="@+id/addcontactsmanually_eName"
+  	android:layout_toRightOf="@id/addcontactsmanually_tNumber"
+  	android:inputType="phone"
+  	 	
+  />
+  
+  <TextView
+  	android:id="@+id/addcontactsmanually_tText"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:text="@string/Text"
+  
+  	android:textSize="20sp"
+  	android:layout_below="@+id/addcontactsmanually_eNumber"
+  	
+  />
+  
+  <Button
+  	android:id="@+id/addcontactsmanually_bAdd"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:layout_above="@+id/addcontactsmanually_bCancel"
+  	
+  	android:text="@string/Add"
+  />
+  
+  <Button
+  	android:id="@+id/addcontactsmanually_bCancel"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:layout_alignParentBottom="true"
+  	android:text="@string/Cancel"
+  />
+</RelativeLayout>
