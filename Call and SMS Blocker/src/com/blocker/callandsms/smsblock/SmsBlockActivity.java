@@ -8,7 +8,7 @@ import com.blocker.callandsms.callcommunityblacklistfeaturescreen.CallCommynityB
 import com.blocker.callandsms.contactrep.Contact;
 import com.blocker.callandsms.mainapplication.BlacklistApplication;
 import com.blocker.callandsms.startscreen.R;
-import com.blocker.smscommunityBlacklistFeatureActivity.SmsCommunityBlacklistFeatureActivity;
+//import com.blocker.smscommunityBlacklistFeatureActivity.SmsCommunityBlacklistFeatureActivity;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -137,9 +137,9 @@ public class SmsBlockActivity extends Activity implements OnClickListener{
 	
 	private void navigateToCommunityBlacklist()
 	{
-		Intent intent=new Intent(this,SmsCommunityBlacklistFeatureActivity.class);
-		intent.putExtra("index",index);
-		this.startActivity(intent);
+		//Intent intent=new Intent(this,SmsCommunityBlacklistFeatureActivity.class);
+		//intent.putExtra("index",index);
+		//this.startActivity(intent);
 	}
 	
 	private void clearRadioButtons() {

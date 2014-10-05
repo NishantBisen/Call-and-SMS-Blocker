@@ -1,6 +1,6 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: D:\\AndroidAssign\\CallAndSMSBlockerApp\\src\\com\\android\\internal\\telephony\\ITelephony.aidl
+ * Original file: /Users/nishant/Documents/Call-and-SMS-Blocker/Call and SMS Blocker/src/com/android/internal/telephony/ITelephony.aidl
  */
 package com.android.internal.telephony;
 public interface ITelephony extends android.os.IInterface
@@ -23,13 +23,13 @@ public static com.android.internal.telephony.ITelephony asInterface(android.os.I
 if ((obj==null)) {
 return null;
 }
-android.os.IInterface iin = (android.os.IInterface)obj.queryLocalInterface(DESCRIPTOR);
+android.os.IInterface iin = obj.queryLocalInterface(DESCRIPTOR);
 if (((iin!=null)&&(iin instanceof com.android.internal.telephony.ITelephony))) {
 return ((com.android.internal.telephony.ITelephony)iin);
 }
 return new com.android.internal.telephony.ITelephony.Stub.Proxy(obj);
 }
-public android.os.IBinder asBinder()
+@Override public android.os.IBinder asBinder()
 {
 return this;
 }
@@ -74,7 +74,7 @@ Proxy(android.os.IBinder remote)
 {
 mRemote = remote;
 }
-public android.os.IBinder asBinder()
+@Override public android.os.IBinder asBinder()
 {
 return mRemote;
 }
@@ -82,7 +82,7 @@ public java.lang.String getInterfaceDescriptor()
 {
 return DESCRIPTOR;
 }
-public boolean endCall() throws android.os.RemoteException
+@Override public boolean endCall() throws android.os.RemoteException
 {
 android.os.Parcel _data = android.os.Parcel.obtain();
 android.os.Parcel _reply = android.os.Parcel.obtain();
@@ -99,7 +99,7 @@ _data.recycle();
 }
 return _result;
 }
-public void answerRingingCall() throws android.os.RemoteException
+@Override public void answerRingingCall() throws android.os.RemoteException
 {
 android.os.Parcel _data = android.os.Parcel.obtain();
 android.os.Parcel _reply = android.os.Parcel.obtain();
@@ -113,7 +113,7 @@ _reply.recycle();
 _data.recycle();
 }
 }
-public void silenceRinger() throws android.os.RemoteException
+@Override public void silenceRinger() throws android.os.RemoteException
 {
 android.os.Parcel _data = android.os.Parcel.obtain();
 android.os.Parcel _reply = android.os.Parcel.obtain();
